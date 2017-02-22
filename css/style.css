@@ -1,0 +1,247 @@
+
+/*** GLOBAL LAYOUT ***/
+
+*, *:before, *:after {
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+
+ /*** BASE STYLES ***/
+
+h1 {
+    
+    text-align: center;
+    font-family: 'Roboto Slab', 'Open Sans', sans-serif;
+    font-size: 16pt;
+    color: white;
+}
+
+h2 { 
+    font-family: 'Roboto Slab', sans-serif;
+    font-size: 18pt;
+    font-weight: 700;
+    text-align: center;
+    padding-top: 20px;
+    color: #2B2B2B;
+}
+
+legend {
+    font-family: 'Roboto Slab', sans-serif;
+    font-size: 16pt;
+    font-weight: 500;
+}
+
+p {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 12pt;
+    text-align: center;
+    padding-bottom: 20px;
+    color: #2A2A2A;
+    
+}
+
+
+fieldset {
+    margin-bottom: 10px;
+    margin-top: 20px;
+    border: none;
+    padding: 0;
+}
+
+
+button {
+    font-family: 'Roboto Slab', sans-serif;
+    font-size: 14pt;
+    padding: 15px 20px 15px 20px;
+    color: #FFF;
+    background-color: #00cc99;
+    text-align: center;
+    border-radius: 5px;
+    width: 100%;
+    border: 1px solid #00cc99;
+    box-shadow: 0 -1px 0 rgba(255,255,255,0.1) inset;
+}
+
+
+form {
+	font-family: 'Roboto', sans-serif;
+	color: #384047;
+    margin-bottom: 10px;
+    border-top: 2px solid black;
+}
+
+
+input,
+textarea, 
+input[type="text"],
+input[type="email"],
+input[type="tel"],
+select {
+    font-size: 10pt;
+    color: black;
+    font-weight: 300; 
+    width: 100%;
+    border: none;
+    height: auto;
+    padding: 12px;
+    margin-bottom: 18px;
+    border-radius: .4em;
+    border-bottom: 2px solid rgba(0,0,0, 0.05);
+    background-color: #efefef;
+    box-shadow: 0 1px 0 rgba(0,0,0,0.01) inset;
+}
+
+
+input[type="text"],
+input[type="email"],
+input[type="tel"],
+select {
+	height: 50px;
+}
+
+
+label {
+    font-family: 'Roboto Slab', sans-serif;
+    font-size: 11pt;
+    display: block;
+    margin-bottom: 10px;
+}
+
+.contact-info {
+        padding-top: 20px;
+}
+
+
+
+
+header {
+    
+    padding-top: 0.5em;
+    padding-bottom: 0.5em;
+    background: #000066;
+}
+
+
+#copyright {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 11pt;
+    color: darkgrey;    
+    text-align: center;
+    padding-bottom: 40px;
+    font-style: italic;
+}
+
+
+::-webkit-input-placeholder {
+  font-size: 1em;
+  font-weight: 300;
+  font-style: italic;
+  text-align: right;
+  line-height: 20px;
+}
+
+
+
+
+textarea {
+  height: 100px;
+  resize: none;
+}
+
+
+
+/*** CHECKBOXES ***/
+
+
+.group input {
+    float: left;
+    width: auto;
+    margin-top: 3px;
+    margin-right: 10px;
+    display: inline;
+}
+
+
+.radios input {
+    float: left;
+    width: auto;
+    margin-top: 3px;
+    margin-right: 10px;
+    display: inline;
+}
+
+
+
+/*** PAGE ***/
+
+.wrap {
+	margin: 0 auto;
+	max-width: 360px;
+}
+
+
+/*** LINES ***/
+
+
+.double {
+  height: 9px;
+  border-top: 5px solid #2B2B2B;
+  border-bottom: 1px solid #2B2B2B;
+}
+
+.single {
+  margin: 10px 0 5px; 
+  height: 1px;
+  border-bottom: 2px solid #2B2B2B;
+}
+
+.single,
+.double {
+  width: 100%;
+}
+
+
+
+/*** LINKS/HOVERS ***/
+
+a:link { 
+  color: #283593;
+  text-decoration: none;
+}
+
+a:visited {
+  color: #1A237E;
+}
+
+a:hover {
+  color: #4527A0;
+}
+
+a:active {
+  color: #1A237E;
+}
+
+
+input:active,
+textarea:active {
+    border: 1px solid rgba(0,0,0,1);
+}
+
+
+
+
+
+ /*** MEDIA ***/
+
+@media screen and (min-width: 760px) {
+
+body {
+    background-size: 100%;
+}
+    
+.wrap {
+    margin: 0 auto;
+    max-width: 600px;
+}

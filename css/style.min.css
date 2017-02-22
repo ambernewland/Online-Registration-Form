@@ -1,0 +1,271 @@
+/*** GLOBAL LAYOUT ***/
+
+*, *:before, *:after {
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+
+fieldset,
+form,
+label {
+    margin-bottom: 10px
+}
+
+#copyright,
+button,
+h1,
+h2,
+p {
+    text-align: center
+}
+
+*,
+:after,
+:before {
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box
+}
+
+h1 {
+    font-family: 'Roboto Slab', 'Open Sans', sans-serif;
+    font-size: 16pt;
+    color: #fff
+}
+
+h2,
+legend {
+    font-family: 'Roboto Slab', sans-serif
+}
+
+h2 {
+    font-size: 18pt;
+    font-weight: 700;
+    padding-top: 20px;
+    color: #2B2B2B
+}
+
+legend {
+    font-size: 16pt;
+    font-weight: 500
+}
+
+p {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 12pt;
+    padding-bottom: 20px;
+    color: #2A2A2A
+}
+
+fieldset {
+    margin-top: 20px;
+    border: none;
+    padding: 0
+}
+
+button {
+    font-family: 'Roboto Slab', sans-serif;
+    font-size: 14pt;
+    padding: 15px 20px;
+    color: #FFF;
+    background-color: #0c9;
+    border-radius: 5px;
+    width: 100%;
+    border: 1px solid #0c9;
+    box-shadow: 0 -1px 0 rgba(255, 255, 255, .1) inset
+}
+
+form {
+    font-family: Roboto, sans-serif;
+    color: #384047;
+    border-top: 2px solid #000
+}
+
+input,
+input[type=text],
+input[type=email],
+input[type=tel],
+select,
+textarea {
+    font-size: 10pt;
+    color: #000;
+    font-weight: 300;
+    width: 100%;
+    border: none;
+    height: auto;
+    padding: 12px;
+    margin-bottom: 18px;
+    border-radius: .4em;
+    border-bottom: 2px solid rgba(0, 0, 0, .05);
+    background-color: #efefef;
+    box-shadow: 0 1px 0 rgba(0, 0, 0, .01) inset
+}
+
+input[type=text],
+input[type=email],
+input[type=tel],
+select {
+    height: 50px
+}
+
+label {
+    font-family: 'Roboto Slab', sans-serif;
+    font-size: 11pt;
+    display: block
+}
+
+.contact-info {
+    padding-top: 20px
+}
+
+header {
+    padding-top: .5em;
+    padding-bottom: .5em;
+    background: #006
+}
+
+#copyright {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 11pt;
+    color: #a9a9a9;
+    padding-bottom: 40px;
+    font-style: italic
+}
+
+::-webkit-input-placeholder {
+    font-size: 1em;
+    font-weight: 300;
+    font-style: italic;
+    text-align: right;
+    line-height: 20px
+}
+
+textarea {
+    height: 100px;
+    resize: none
+}
+
+.group input,
+.radios input {
+    float: left;
+    width: auto;
+    margin-top: 3px;
+    margin-right: 10px;
+    display: inline
+}
+
+.wrap {
+    margin: 0 auto;
+    max-width: 360px
+}
+
+.double {
+    height: 9px;
+    border-top: 5px solid #2B2B2B;
+    border-bottom: 1px solid #2B2B2B
+}
+
+.single {
+    margin: 10px 0 5px;
+    height: 1px;
+    border-bottom: 2px solid #2B2B2B
+}
+
+.double,
+.single {
+    width: 100%
+}
+
+a:link {
+    color: #283593;
+    text-decoration: none
+}
+
+a:active,
+a:visited {
+    color: #1A237E
+}
+
+a:hover {
+    color: #4527A0
+}
+
+input:active,
+textarea:active {
+    border: 1px solid rgba(0, 0, 0, 1)
+}
+
+
+.contact-info input, .contact-info label {
+    display: block;
+    float: none;
+    width: auto;
+}
+
+.contact-info label {
+    max-width: 100%;
+    width: 100%;
+}
+
+.contact-info input {
+    width: 100%;
+    max-width: 100%;
+}
+
+
+.select state, .select label {
+    display: block;
+    float: none;
+    width: auto;
+}
+
+.select state {
+    width: 100%;
+    max-width: 100%;
+}
+
+
+@media screen and (min-width:760px) {
+    body {
+        background-size: 100%
+    }
+    .wrap {
+        margin: 0 auto;
+        max-width: 600px
+    }
+    
+.contact-info input, .contact-info label {
+    display: inline;
+    float: left;
+    width: auto;
+}
+
+.contact-info label {
+    max-width: 150px;
+    width: 100%;
+}
+
+.contact-info input {
+    width: 100%;
+    max-width: calc(100% - 150px);
+}
+    
+.contact-info select, .states label {
+    display: inline;
+    float: left;
+    width: auto;
+}
+
+.states label {
+    max-width: 150px;
+    width: 100%;
+}
+
+.contact-info select{
+    width: 100%;
+    max-width: calc(100% - 150px);
+}
+    
+}
