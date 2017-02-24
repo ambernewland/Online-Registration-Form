@@ -178,19 +178,22 @@ textarea {
     width: 100%
 }
 
-a:link {
-    color: #283593;
-    text-decoration: none
+
+
+textarea:focus {
+  background: lightblue;
 }
 
-a:active,
-a:visited {
-    color: #1A237E
+input:focus {
+  background: lightblue;
 }
 
 a:hover {
     color: #4527A0
 }
+
+
+
 
 input:active,
 textarea:active {
